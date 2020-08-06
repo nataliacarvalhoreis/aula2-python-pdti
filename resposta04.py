@@ -1,6 +1,12 @@
 letra = input("Informe a letra: ")
 
-if letra == 'a' or letra == 'e' or letra == 'i' or letra == 'o' or letra == 'u':
+vogal = "aeiou"
+
+letra = letra.lower()
+
+if vogal.find(letra)>=0:
     print("A letra é uma vogal")
 else:
     print("A letra é uma consoante")
+
+
